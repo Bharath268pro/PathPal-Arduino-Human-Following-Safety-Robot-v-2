@@ -65,7 +65,6 @@ void setup() {
   delay(100);
   digitalWrite(BUZZER, LOW);
   
-
   for (int i = 20; i > 0; i--) {
     Serial.print(i);
     Serial.println(" seconds...");
