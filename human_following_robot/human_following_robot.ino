@@ -50,12 +50,10 @@ void setup() {
     myservo.write(pos);
     delay(15);
   }
-  
   pinMode(RIGHT, INPUT);
   pinMode(LEFT, INPUT);
   pinMode(MQ2_SENSOR, INPUT);
   pinMode(BUZZER, OUTPUT);
-  
   digitalWrite(BUZZER, LOW);
   
   // NO TONE AT ALL - just countdown
