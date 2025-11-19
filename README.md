@@ -120,7 +120,7 @@ Install these libraries through Arduino IDE Library Manager.
 - **Left IR triggered**: Robot turns left
 - **Distance > 15 cm**: Robot stops (target lost)
 
-### Safety Features
+### Safety Features:
 
 #### Gas/Smoke Detection
 - **MQ-2 Value ≥ 100**: 🚨 Smoke detected → Stop & Alert
@@ -142,7 +142,7 @@ Install these libraries through Arduino IDE Library Manager.
 Open Serial Monitor (9600 baud) to view real-time data:
 ```
 Distance: 12 cm | RIGHT: 0 | LEFT: 1 | MQ2: 45 (Normal)
-🚗 Following target
+Following target
 ```
 
 ## 🎯 Applications
